@@ -1,43 +1,51 @@
 
 # 📊 Stock Market Data Analyzer
 
+---
+
 ## 📌 Project Overview
-The Stock Market Data Analyzer is a Python-based financial data analysis project that fetches real-time stock market data and applies technical indicators to understand price trends and market behavior. It demonstrates how financial data can be processed, analyzed, and visualized using Python.
+The **Stock Market Data Analyzer** is a Python-based financial analysis system that fetches real-time stock market data, processes it, and applies technical indicators to analyze market trends.  
+
+It demonstrates how Python can be used for **financial data analysis, visualization, and decision support systems**.
 
 ---
 
 ## 🎯 Objective
-To build a beginner-friendly stock analysis system that extracts real stock data, applies technical indicators, visualizes trends, and helps understand market movement patterns.
+To build a structured stock analysis system that:
+- Fetches live stock market data
+- Applies technical indicators (SMA, EMA, RSI)
+- Visualizes trends and patterns
+- Provides insights for decision-making
 
 ---
 
 ## ⚙️ Features
-- 📈 Real-time stock data extraction using Yahoo Finance  
-- 📊 Technical indicators: SMA, EMA, RSI  
-- 📉 Trend visualization using Matplotlib  
-- 🧹 Data cleaning and preprocessing  
-- 📓 Interactive Jupyter Notebook analysis  
-- ⚠️ Handles missing and inconsistent data  
+- 📈 Real-time stock data using Yahoo Finance  
+- 📊 Technical indicators (SMA, EMA, RSI)  
+- 📉 Trend visualization using graphs  
+- 🧹 Clean and preprocess financial datasets  
+- 📓 Jupyter Notebook analysis support  
+- 📊 Modular Python backend structure  
 
 ---
 
 ## 🛠 Tech Stack
-Python, Pandas, NumPy, yFinance, TA Library, Matplotlib, Seaborn, Jupyter Notebook
+Python • Pandas • NumPy • yFinance • TA-Lib • Matplotlib • Seaborn • Jupyter Notebook
 
 ---
 
 ## 📁 Project Structure
-Stock-Market-Data-Analyzer/   
-├── notebooks/ (Jupyter notebooks) 
-├── src/ (python scripts) 
+Stock-Market-Data-Analyzer/  
+├── notebooks/ (Jupyter notebooks)  
+├── src/ (python scripts)  
 ├── main.py  
-├── dashboard.py    
+├── dashboard.py  
 ├── requirements.txt  
 └── README.md  
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 How to Run Project
 
 ### 1️⃣ Clone Repository
 git clone https://github.com/srsimsima81-cloud/Stock-Market-Data-Analyzer.git  
@@ -47,7 +55,7 @@ cd Stock-Market-Data-Analyzer
 
 ### 2️⃣ Create Virtual Environment
 python -m venv venv  
-venv\Scripts\activate   (Windows)
+venv\Scripts\activate   (Windows)  
 
 ---
 
@@ -56,35 +64,38 @@ pip install -r requirements.txt
 
 ---
 
-### 4️⃣ Run Jupyter Notebook
-jupyter notebook  
+### 4️⃣ Run Main Script
+python main.py  
+
+---
+
+### 5️⃣ Run Dashboard (Optional UI)
+streamlit run dashboard.py  
 
 ---
 
 ## 📊 Workflow
-Stock Data → Data Cleaning → Indicator Calculation (SMA, EMA, RSI) → Visualization → Insights  
+Stock Data → Data Cleaning → Indicator Calculation (SMA, EMA, RSI) → Visualization → Insights Generation  
 
 ---
 
 ## 📌 Key Learnings
-- Handling time-series financial data  
-- Understanding technical indicators  
-- Data preprocessing using Pandas  
-- Visualization techniques  
-- Debugging real-world Python issues  
+- Time-series financial data handling  
+- Technical indicator implementation  
+- Data visualization techniques  
+- Modular Python project structure  
+- Debugging real-world data issues  
 
 ---
 
 
-
-
-## 📌 Future Improvements
-- Live stock dashboard using Streamlit  
-- Machine learning price prediction model  
-- Portfolio tracking system  
-- Real-time alerts system  
+## 📌 Future Enhancements
+- Live trading dashboard  
+- Machine learning price prediction  
+- Portfolio management system  
+- Real-time alerts and notifications  
 
 ---
 
 ## ⭐ Acknowledgements
-Yahoo Finance API, Python TA Library, Open Source Community
+Yahoo Finance API • Python TA Library • Open Source Community
